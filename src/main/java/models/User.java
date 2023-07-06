@@ -9,7 +9,7 @@ import lombok.ToString;
 @Builder
 @Setter
 @ToString
-public class User  {
+public class User implements User_Cor_Data {
     String name;
     String lastname;
     String email;
